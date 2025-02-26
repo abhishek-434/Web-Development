@@ -1,0 +1,31 @@
+body{
+    background-color: #C2FFC7;
+    color: #000B58;
+}
+.city{
+    background-color: #bebebe;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    color: #222831;
+}
+
+#sam{
+    background-color: #FEF3E2;
+    color: red;
+    border: 1px dotted black;
+}
+#rc{
+    background-color: #FEF3E2;
+    color: black;
+    border: 2px double black;
+}
+.ch{
+    margin-top: 1000px;
+}

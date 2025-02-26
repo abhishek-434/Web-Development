@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Header */
+header {
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header-container h1 {
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.header-container p {
+    color: #555;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.gallery h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    padding: 0 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-info{
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-info h2{
+    color: #4CAF50;
+    text-align: center;
+}
+
+.contact-info h3{
+    text-align: center;
+}
+
+.contact-info p iframe{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+

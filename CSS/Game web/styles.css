@@ -1,0 +1,309 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+}
+
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .Name h1 {
+    color: #00adee;
+    margin: 0;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar .dropdown-toggle {
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .dropdown-toggle:hover {
+    color: #00adee;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .dropdown-item {
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #00adee;
+}
+
+
+.navbar .nav-links a:hover {
+    color: #00aaff;
+}
+
+.login-btn {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #0097a7;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.featured-game-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: grey;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.featured-game-content img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.featured-game-details h2 {
+    color: #333;
+}
+
+.featured-game-details button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.featured-game-details button:hover {
+    background: #0056b3;
+}
+
+.game-store {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.game-store h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+    background-color: grey;
+}
+
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.game {
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.game:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.game h3 {
+    padding: 10px;
+    background-color: rgb(153, 45, 45);
+    color: white;
+    text-align: center;
+}
+
+.game h5{
+    font-size: medium;
+}
+
+.game ul {
+    padding: 20x;
+}
+
+.game li{
+    text-align: left;
+    padding: 10px;
+}
+
+.game button {
+    padding: 10px 20px;
+    background-color: #00adee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;   
+}
+
+.game button:hover {
+    background-color: #008bb5;
+}
+
+.More-games .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.More-games .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.More-games img {
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 4px solid #00adee;
+}
+
+.More-games .card-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.More-games h5 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.More-games ul {
+    padding-left: 0;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.More-games .price {
+    font-size: 18px;
+    color: #00adee;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.More-games button {
+    background-color: #00adee;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.More-games button:hover {
+    background-color: #007bbd;
+}
+
+.footer {
+    text-align: center;
+    background: #343a40;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #00adee;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #008bb5;
+} */
+
+
+
+.navbar{
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .Name h1{
+    color: #00adee;
+    padding: 10px;
+}
+
+.navbar .nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .dropdown-toggle:hover {
+    color: #00adee;
+}
+
+.navbar .dropdown-menu{
+    background-color: #343a40;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .nav-links a:hover{
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    margin: 0px;
+}
+
+.navbar .nav-links a:hover {
+    color: #00aaff;
+}
+

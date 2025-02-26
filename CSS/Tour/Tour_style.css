@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: #333;
+}
+
+.travel h1{
+    text-align: center;
+    text-decoration: solid;
+    color: red;
+}
+
+.travel p{
+    text-align: center;
+    color: #393E46;
+}
+
+.content h2 {
+    text-align: left;
+    color: #393E46;
+}
+
+.content p{
+    color: #393E46;
+}
+
+.Destination h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.destination h3{
+    text-decoration: underline;
+    color: red;
+}
+
+.destination p{
+    color: #393E46;
+}
+
+.destination img{
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%
+}
+
+.packages h2{
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.packages table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.packages th, .packages td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.packages th {
+    background-color: #ff5733;
+    color: white;
+}
+
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.contact h2 {
+    color: #ff5733;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #d94525;
+}
