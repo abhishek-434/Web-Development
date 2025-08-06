@@ -5,12 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 12px 10px;
+            vertical-align: top;
+        }
+
+        label {
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            margin-right: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        button[type="reset"] {
+            background-color: #f44336;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            td {
+                display: block;
+                width: 100%;
+            }
+
+            td:first-child {
+                margin-top: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <h2>School Admission Form</h2>
     <form action="" method="post">
-        <table border="1">
+        <table>
             <tr>
                 <td><label for="firstName">First Name:</label></td>
                 <td><input type="text" id="firstName" name="firstName" required></td>
@@ -52,22 +147,23 @@
             <tr>
                 <td><label for="class">Class:</label></td>
                 <td>
-                    <select id="class" name="class">
-                        <option value="-1">Select Class</option>
-                        <option value="1">Nursery</option>
-                        <option value="2">K.G</option>
-                        <option value="3">1st</option>
-                        <option value="4">2nd</option>
-                        <option value="5">3rd</option>
-                        <option value="6">4th</option>
-                        <option value="7">5th</option>
-                        <option value="8">6th</option>
-                        <option value="9">7th</option>
-                        <option value="10">8th</option>
-                        <option value="11">9th</option>
-                        <option value="12">10th</option>
-                        <option value="13">11th</option>
-                        <option value="14">12th</option>
+                    <select id="class" name="class" required>
+                        <option value="">Select Class</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="KG">K.G</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                        <option value="6th">6th</option>
+                        <option value="7th">7th</option>
+                        <option value="8th">8th</option>
+                        <option value="9th">9th</option>
+                        <option value="10th">10th</option>
+                        <option value="11th">11th</option>
+                        <option value="12th">12th</option>
+                    </select>
                 </td>
             </tr>
             <tr>
@@ -78,7 +174,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
+                <td colspan="2" style="text-align: center;">
                     <button type="submit">Submit</button>
                     <button type="reset">Reset</button>
                 </td>
